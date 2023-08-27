@@ -1,7 +1,7 @@
 import { slide as Menu } from 'react-burger-menu';
 import './Navbar.css'
 
-const Navbar = () => {
+const Navbar: React.FC = () => {
   return (
     <div className='container-nav'>
       <Menu width={'85%'} isOpen={false}>
