@@ -1,79 +1,29 @@
-import { useState } from 'react';
+// import { useState } from 'react';
 import './About.css'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
-import vector from '../assets/img/vector.png'
+// import vector from '../assets/img/vector.png'
+// import OptionsAbout from '../components/OptionsAbout';
+import Sidebar from '../components/Sidebar';
 
-function About() {
-  const [professionalInfoVisible, setProfessionalInfoVisible] = useState(false);
-
-  const toggleOptions = () => {
-    setProfessionalInfoVisible(!professionalInfoVisible);
-  };
-
-  const scrollToSection = (sectionId: string) => {
-    const section = document.getElementById(sectionId);
-    if (section) {
-      section.scrollIntoView({ behavior: 'smooth' });
-    }
-  };
+const About: React.FC = () => {
 
   return (
     <div className='about-view'>
-      <header className='home-header'>
+      <header className='about-header'>
         <Navbar />
         <div className='container-title-about'>
-          <span className='title-about'>_about-me</span>
+          <span className='title-about'>about-me</span>
         </div>
-        <div className='container-list'>
-          <ul className='list-about-me'>
-            <a
-              className='anchor-about-me'
-              href='#professional-info'
-              id='professional-info'
-              onClick={toggleOptions}
-            >
-              <img className='vector-img' src={vector} alt='vector' />
-              <li className='list-item'>professiona-info</li>
-              {professionalInfoVisible && (
-                <div className='options-container'>
-                  <a href='#bio'>Bio</a>
-                  <a href='#education'>Education</a>
-                  <a href='#certifications'>Certifications</a>
-                </div>
-              )}
-            </a>
-            <a
-              className='anchor-about-me'
-              href='#hobbies'
-              id='hobbies'
-            >
-              <img className='vector-img' src={vector} alt='vector' />
-              <li className='list-item'>hobbies</li>
-            </a>
-            <a
-              className='anchor-about-me'
-              href='#contacts'
-              id='contacts'
-            >
-              <img className='vector-img' src={vector} alt='vector' />
-              <li className='list-item'>contacts</li>
-            </a>
-            {professionalInfoVisible && (
-              <div className='options-container'>
-                <a onClick={() => scrollToSection('bio')}>Bio</a>
-                <a onClick={() => scrollToSection('education')}>Education</a>
-                <a onClick={() => scrollToSection('certifications')}>Certifications</a>
-              </div>
-            )}
-          </ul>
+        <div className='container-sidebar'>
+          <Sidebar />
         </div>
       </header>
-
       <main>
         <div className='container-main-home'>
-          <h1>ABOUT ME</h1>
           <section className='bio' id='bio'>
+            <h1>professional-info</h1>
+            <p>In this section you will find all the information of my professional profile, I invite you to read a little more about me and my work</p>
             <h2>bio</h2>
             <p>Hi, my name is Andreyna but you can call me Andre...
 
