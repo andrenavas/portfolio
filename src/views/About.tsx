@@ -21,9 +21,9 @@ const About: React.FC = () => {
       </header>
       <main>
         <div className='container-main-home'>
+          <h1>professional-info</h1>
+          <p>In this section you will find all the information of my professional profile, I invite you to read a little more about me and my work. </p>
           <section className='bio' id='bio'>
-            <h1>professional-info</h1>
-            <p>In this section you will find all the information of my professional profile, I invite you to read a little more about me and my work</p>
             <h2>bio</h2>
             <p>Hi, my name is Andreyna but you can call me Andre...
 
@@ -34,30 +34,50 @@ const About: React.FC = () => {
           </section>
           <section className='education' id='education'>
             <h2>education</h2>
-            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer efficitur egestas vehicula. Maecenas eu enim vestibulum, consequat nisi in, pellentesque eros. Nulla auctor rutrum urna quis eleifend. Nam laoreet, libero eu aliquet aliquam, erat ante tempor ligula, vel pretium nisl urna accumsan orci. In est dui, semper nec viverra nec, pharetra quis risus. Sed sed tortor ultricies, tempor enim vitae, interdum lacus. Praesent feugiat gravida eros, malesuada fermentum ligula ultrices non. Donec tempor augue sed sem imperdiet gravida. Ut lobortis porttitor mauris vel vestibulum. Donec turpis sem, consequat eget dolor consequat, auctor feugiat nisl. Donec scelerisque elementum placerat. Aliquam dapibus sed mi eget feugiat. Vivamus lacinia elit vel diam rutrum vestibulum sit amet ac elit. Fusce dictum pharetra lectus in condimentum. Integer scelerisque arcu in euismod vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;
-
-              Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis tempus, libero at fringilla rutrum, mi tortor pharetra urna, ac fermentum magna orci et risus. Curabitur porttitor sodales sapien at blandit. Suspendisse molestie arcu tellus, ac hendrerit nisl iaculis eget. Quisque imperdiet non nunc nec efficitur. Sed eget gravida mi, at egestas neque. Nunc tristique volutpat urna, a euismod leo pharetra sit amet. Nunc dictum eleifend ligula, vitae bibendum neque ultrices vel. Duis ullamcorper tellus in ex interdum, quis lacinia magna facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi risus risus, tincidunt sed felis vitae, posuere sollicitudin eros.
-
-              Duis rhoncus blandit lorem eget porta. Nunc volutpat quam at dignissim interdum. Fusce arcu eros, tristique et elit non, pretium tincidunt nibh. Proin blandit porta enim, quis commodo elit dapibus sed. Nullam a porttitor quam, sed ultricies metus. Aenean mattis libero maximus, eleifend risus quis, vehicula urna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut est velit, ornare a ipsum a, auctor mattis purus. Aliquam ultricies, justo eu dictum molestie, leo risus lobortis justo, at fermentum nisl orci id nulla. Cras accumsan efficitur consectetur. Donec odio nunc, commodo vitae commodo aliquet, placerat non velit.
-
-              Nunc efficitur nisl vitae nibh faucibus, et sollicitudin diam sagittis. Aliquam erat volutpat. Donec neque nisi, congue ac enim quis, tincidunt interdum erat. Nulla ultrices vehicula elit quis suscipit. Nulla ex lectus, scelerisque nec hendrerit eu, finibus a mauris. Ut a dui diam. Vivamus fermentum auctor lectus nec efficitur. Vestibulum euismod arcu nec dolor bibendum, elementum lacinia odio posuere. Curabitur et purus convallis, pharetra neque non, suscipit lectus. Ut id posuere turpis. Aenean eget mauris venenatis, blandit risus vel, mattis diam.
-
-              Quisque eros dolor, interdum in placerat a, pharetra vel sapien. Curabitur et urna dictum, tempor orci in, dictum lacus. Fusce hendrerit ullamcorper dignissim. Nam eget pellentesque tortor, eget aliquet dolor. In at ligula ac arcu maximus feugiat vitae tincidunt nulla. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent euismod nisi eu lorem lacinia feugiat. Pellentesque eget fringilla tellus.
-            </p>
+            <h3>Frontend Developer - Laboratoria | 2023 </h3>
+            <p>Laboratoria's program is an intensive coding bootcamp that strives to simulate a real workplace environment. Over the span of 6 months, participants engage in web projects, employing agile SCRUM methodologies, and honing the soft skills demanded by the technology industry. </p>
+            <a href='https://www.laboratoria.la/' target='_blank'>See more about Laboratoria</a>
+            <h3>Industrial Engineer - UNEXPO | 2015 </h3>
+            <p>UNEXPO is a Polytechnic University located in Barquisimeto, Venezuela. With more than 40 years training leading Engineers in the labor market inside and outside Venezuela, graduated Industrial Engineers are trained in planning, studying, directing and controlling the analysis of the different methods, processes, systems of production procedures. Examines and observes the various processes and information related to sales and production volume, finished product improvements, waste materials, and factory layout. </p>
+            <a href='https://virtualunexpo.com/' target='_blank'>See more about UNEXPO</a>
+          </section>
+          <section className='technologies' id='technologies'>
+            <h2>technologies</h2>
+              <h3>JavaScript</h3>
+              <h3>React.js</h3>
+              <h3>TypeScript</h3>
+              <h3>Node.js</h3>
+              {/* <a href='https://platzi.com/p/andreynanavas/curso/4989-expresiones-tiempo-cantidad/diploma/detalle/' target='_blank'>See the latest certificate</a> */}
+              <h3>HTML</h3>
+              {/* <a href='https://drive.google.com/file/d/107Kxq4UeUiI3SuT6bMgZMhBwDys9IsT6/view' target='_blank'>See the certificate</a> */}
+              <h3>CSS</h3>
+              {/* <a href='https://cursos.desafiolatam.com/certificates/qn2txieutt' target='_blank'>See the certificate</a> */}
+              <h3>SCRUM</h3>
+              {/* Add logos for each technologies */}
           </section>
           <section className='certifications' id='certifications'>
             <h2>certifications</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer efficitur egestas vehicula. Maecenas eu enim vestibulum, consequat nisi in, pellentesque eros. Nulla auctor rutrum urna quis eleifend. Nam laoreet, libero eu aliquet aliquam, erat ante tempor ligula, vel pretium nisl urna accumsan orci. In est dui, semper nec viverra nec, pharetra quis risus. Sed sed tortor ultricies, tempor enim vitae, interdum lacus. Praesent feugiat gravida eros, malesuada fermentum ligula ultrices non. Donec tempor augue sed sem imperdiet gravida. Ut lobortis porttitor mauris vel vestibulum. Donec turpis sem, consequat eget dolor consequat, auctor feugiat nisl. Donec scelerisque elementum placerat. Aliquam dapibus sed mi eget feugiat. Vivamus lacinia elit vel diam rutrum vestibulum sit amet ac elit. Fusce dictum pharetra lectus in condimentum. Integer scelerisque arcu in euismod vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;
-
-              Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis tempus, libero at fringilla rutrum, mi tortor pharetra urna, ac fermentum magna orci et risus. Curabitur porttitor sodales sapien at blandit. Suspendisse molestie arcu tellus, ac hendrerit nisl iaculis eget. Quisque imperdiet non nunc nec efficitur. Sed eget gravida mi, at egestas neque. Nunc tristique volutpat urna, a euismod leo pharetra sit amet. Nunc dictum eleifend ligula, vitae bibendum neque ultrices vel. Duis ullamcorper tellus in ex interdum, quis lacinia magna facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi risus risus, tincidunt sed felis vitae, posuere sollicitudin eros.
-
-              Duis rhoncus blandit lorem eget porta. Nunc volutpat quam at dignissim interdum. Fusce arcu eros, tristique et elit non, pretium tincidunt nibh. Proin blandit porta enim, quis commodo elit dapibus sed. Nullam a porttitor quam, sed ultricies metus. Aenean mattis libero maximus, eleifend risus quis, vehicula urna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut est velit, ornare a ipsum a, auctor mattis purus. Aliquam ultricies, justo eu dictum molestie, leo risus lobortis justo, at fermentum nisl orci id nulla. Cras accumsan efficitur consectetur. Donec odio nunc, commodo vitae commodo aliquet, placerat non velit.
-
-              Nunc efficitur nisl vitae nibh faucibus, et sollicitudin diam sagittis. Aliquam erat volutpat. Donec neque nisi, congue ac enim quis, tincidunt interdum erat. Nulla ultrices vehicula elit quis suscipit. Nulla ex lectus, scelerisque nec hendrerit eu, finibus a mauris. Ut a dui diam. Vivamus fermentum auctor lectus nec efficitur. Vestibulum euismod arcu nec dolor bibendum, elementum lacinia odio posuere. Curabitur et purus convallis, pharetra neque non, suscipit lectus. Ut id posuere turpis. Aenean eget mauris venenatis, blandit risus vel, mattis diam.
-
-              Quisque eros dolor, interdum in placerat a, pharetra vel sapien. Curabitur et urna dictum, tempor orci in, dictum lacus. Fusce hendrerit ullamcorper dignissim. Nam eget pellentesque tortor, eget aliquet dolor. In at ligula ac arcu maximus feugiat vitae tincidunt nulla. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent euismod nisi eu lorem lacinia feugiat. Pellentesque eget fringilla tellus.
-            </p>
+            <h3>English B1 Intermediate - English Platzi Academy | Currently studying </h3>
+            <a href='https://platzi.com/p/andreynanavas/curso/4989-expresiones-tiempo-cantidad/diploma/detalle/' target='_blank'>See the latest certificate</a>
+            <h3>React with Typescript - Código Facilito | 2023</h3>
+            <a href='https://drive.google.com/file/d/107Kxq4UeUiI3SuT6bMgZMhBwDys9IsT6/view' target='_blank'>See the certificate</a>
+            <h3>Data Analysis - Desafío Latam | 2023</h3>
+            <a href='https://cursos.desafiolatam.com/certificates/qn2txieutt' target='_blank'>See the certificate</a>
+          </section>
+          
+          <h1>hobbies</h1>
+          <section className='hobbies' id='hobbies'>
+          <p>I love workout using Nike Training App, I'm fan to comedy podcast and I enjoy going out with my family... </p>
+          </section>
+          <h1>Contacts</h1>
+          <section className='contacts' id='contacts'>
+          <p>Find me in:</p>
+          <h3>Gmail</h3>
+          <a href='andreynanavas@gmail.com'>andreynanavas@gmail.com</a>
+          <h3>LinkedIn</h3>
+          <a href='https://www.linkedin.com/in/andreynanavas-front-end-developer/'>in/andreynanavas/front-end-developer</a>
+          <h3>Github</h3>
+          <a href='https://github.com/andrenavas'>github.com/andrenavas</a>
           </section>
         </div>
       </main>
