@@ -1,10 +1,10 @@
 // import { useState } from 'react';
-import './About.css'
-import Navbar from '../components/Navbar'
-import Footer from '../components/Footer'
-// import vector from '../assets/img/vector.png'
-// import OptionsAbout from '../components/OptionsAbout';
+import './About.css';
+import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 import Sidebar from '../components/Sidebar';
+import Cards from '../components/Cards';
+import technologiesData from '../components/TechData';
 
 const About: React.FC = () => {
 
@@ -43,17 +43,13 @@ const About: React.FC = () => {
           </section>
           <section className='technologies' id='technologies'>
             <h2>technologies</h2>
-              <h3>JavaScript</h3>
-              <h3>React.js</h3>
-              <h3>TypeScript</h3>
-              <h3>Node.js</h3>
-              {/* <a href='https://platzi.com/p/andreynanavas/curso/4989-expresiones-tiempo-cantidad/diploma/detalle/' target='_blank'>See the latest certificate</a> */}
-              <h3>HTML</h3>
-              {/* <a href='https://drive.google.com/file/d/107Kxq4UeUiI3SuT6bMgZMhBwDys9IsT6/view' target='_blank'>See the certificate</a> */}
-              <h3>CSS</h3>
-              {/* <a href='https://cursos.desafiolatam.com/certificates/qn2txieutt' target='_blank'>See the certificate</a> */}
-              <h3>SCRUM</h3>
-              {/* Add logos for each technologies */}
+            <span>Here you can see a list of the main technologies I use, to see more look at my</span>
+            <a href='https://drive.google.com/file/d/1Yq6zk8mpngLwJqbR1Lm_84tPVhG8yWDg/view?usp=drive_link'>Resume Here</a>
+            <div className='technology-list'>
+              {technologiesData.map((technology) => (
+                <Cards key={technology.id} technology={technology} />
+              ))}
+            </div>
           </section>
           <section className='certifications' id='certifications'>
             <h2>certifications</h2>
@@ -64,20 +60,20 @@ const About: React.FC = () => {
             <h3>Data Analysis - Desafío Latam | 2023</h3>
             <a href='https://cursos.desafiolatam.com/certificates/qn2txieutt' target='_blank'>See the certificate</a>
           </section>
-          
+
           <h1>hobbies</h1>
           <section className='hobbies' id='hobbies'>
-          <p>I love workout using Nike Training App, I'm fan to comedy podcast and I enjoy going out with my family... </p>
+            <p>I love workout using Nike Training App, I'm fan to comedy podcast and I enjoy going out with my family... </p>
           </section>
           <h1>Contacts</h1>
           <section className='contacts' id='contacts'>
-          <p>Find me in:</p>
-          <h3>Gmail</h3>
-          <a href='andreynanavas@gmail.com'>andreynanavas@gmail.com</a>
-          <h3>LinkedIn</h3>
-          <a href='https://www.linkedin.com/in/andreynanavas-front-end-developer/'>in/andreynanavas/front-end-developer</a>
-          <h3>Github</h3>
-          <a href='https://github.com/andrenavas'>github.com/andrenavas</a>
+            <p>Find me in:</p>
+            <h3>Gmail</h3>
+            <a href='andreynanavas@gmail.com'>andreynanavas@gmail.com</a>
+            <h3>LinkedIn</h3>
+            <a href='https://www.linkedin.com/in/andreynanavas-front-end-developer/'>in/andreynanavas/front-end-developer</a>
+            <h3>Github</h3>
+            <a href='https://github.com/andrenavas'>github.com/andrenavas</a>
           </section>
         </div>
       </main>
