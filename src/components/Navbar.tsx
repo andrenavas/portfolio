@@ -1,21 +1,21 @@
 import { slide as Menu } from 'react-burger-menu';
 import './Navbar.css'
 
-const Navbar = () => {
+const Navbar: React.FC = () => {
   return (
     <div className='container-nav'>
       <Menu width={'85%'} isOpen={false}>
         <a id="hello" className="menu-item" href="/">
-          _hello
+          hello
         </a>
         <a id="about" className="menu-item" href="/about">
-          _about-me
+          about-me
         </a>
         <a id="projects" className="menu-item" href="/projects">
-          _projects
+          projects
         </a>
         <a id="contact" className="menu-item" href="/contact">
-          _contact-me
+          contact-me
         </a>
       </Menu>
       <div className='container-title-nav'>

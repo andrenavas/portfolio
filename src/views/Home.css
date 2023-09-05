@@ -99,8 +99,8 @@
   display: inline;
 }
 
-.container-footer{
-  /* background-color: red; */
+/* .container-footer{
+  background-color: red;
   display: flex;
   justify-content:center;
   align-items: center;
@@ -109,17 +109,17 @@
   color: #607B96;
   border: 1px solid #1E2D3D;
   padding: 10px;
-}
+} */
 
 /* .container-footer span{
   margin-left: 12%;
 } */
 
-.link-github, .link-linkedin{
+/* .link-github, .link-linkedin{
   display: flex;
   width: 40px;
   height: 35px;
-}
+} */
 
 /* #root {
   max-width: 1280px;

@@ -1,0 +1,54 @@
+.about-me-header {
+  text-align: center;
+}
+
+.vertical-menu {
+  color: #FFF;
+  font-size: 15px;
+}
+
+.container-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
+.container-list a {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  width: 100%;
+  background: #1E2D3D;
+  margin-bottom: 0.5em;
+}
+
+.vector-img {
+  display: flex;
+  width: 7px;
+  height: 6px;
+  margin-left: 0.5em;
+  margin-right: 10px;
+}
+
+.vertical-menu ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.vertical-menu ul li {
+  cursor: pointer;
+  padding: 10px;
+  background-color: #1E2D3D;
+}
+
+.vertical-menu ul li:hover {
+  background-color: #eee;
+  color: #1E2D3D;
+}
+
+.vertical-menu ul ul {
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}

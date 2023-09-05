@@ -1,12 +1,10 @@
-// import { useState } from 'react'
-// import reactLogo from './assets/react.svg'
-// import viteLogo from '/vite.svg'
 import './Home.css'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
+// import blue from '../assets/img/blue.png'
+// import green from '../assets/img/green.png'
 
 function Home() {
-  //const [count, setCount] = useState(0)
 
   return (
     <div className='home-view'>
@@ -22,6 +20,8 @@ function Home() {
               <h1 className='title-home'>Andre Navas</h1>
               <span className='span-frontend'>  &gt; Frontend Developer</span>
             </div>
+            {/* <img className='img-green' src={green} alt='green background' />
+            <img className='img-blue' src={blue} alt='blue background' /> */}
             <div className='container-github-profile'>
               <p className='titleGithubProfile'>//Find my profile on Github:</p>
               <div className='containerGithubLink'>
