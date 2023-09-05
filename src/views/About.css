@@ -25,6 +25,16 @@
   flex-direction: column;
 }
 
+.title-about-view{
+  color: #FF2599;
+  font-size: 18px;
+}
+
+.subtitle-about-view{
+  color: #43D9AD;
+  font-size: 14px;
+}
+
 .technology-list{
   display: flex;
   justify-content: center;
