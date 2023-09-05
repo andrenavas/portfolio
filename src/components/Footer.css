@@ -1,14 +1,16 @@
 .container-footer {
     /* background-color: red; */
+    margin: 0 auto;
+    width: 90%;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    gap: 3rem;
+    /* gap: 3rem; */
     font-size: 14px;
     color: #607B96;
-    border: 1px solid #1E2D3D;
-    border-radius: 0 0 8px 8px;
-    padding: 10px;
+    border-top: 1px solid #1E2D3D;
+    /* border-radius: 0 0 8px 8px; */
+    padding: 1rem;
 }
 
 .link-github,

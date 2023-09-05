@@ -47,7 +47,9 @@
   */
 .bm-menu-wrap {
   position: fixed;
-  height: 90%;
+  /* height: 90%; */
+  top: 0;
+  left: 0;
 }
 
 /* General sidebar styles */

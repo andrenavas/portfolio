@@ -8,21 +8,21 @@
 
 html{
   font-size: 62.5%;
-  min-height: 100%;
-  position: relative;
+  /* min-height: 100%; */
+  /* position: relative; */
 }
 
 body{
   margin:0;
-  margin-bottom: 40px;
-  min-height: 100%;
+  /* margin-bottom: 40px;
+  min-height: 100%; */
 }
 
 footer{
-  position: absolute;
-  bottom: 0;
-  width: 90%;
-  height: 40px;
+  /* position: absolute;
+  bottom: 0; */
+  width: 100%;
+  /* height: 40px; */
 }
 /* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;

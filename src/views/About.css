@@ -1,3 +1,9 @@
+.container-about-view {
+  border-radius: 8px;
+  border: 1px solid #1E2D3D;
+  /* background: #011627; */
+  margin: 5%;
+}
 .about-header{
   /* border-bottom: 1px solid #1E2D3D; */
   margin: 1em;
@@ -12,7 +18,7 @@
   font-size: 14px;
 }
 
-.container-main-home{
+.container-main-about{
   margin: 2em;
   color: #607B96;
   display: flex;
