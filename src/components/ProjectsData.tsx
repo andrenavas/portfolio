@@ -3,9 +3,9 @@
 const projectsData = [
   {
     id: 1,
-    name: 'Data Lovers | Rick and Morty Lovers Website',
+    name: 'Data Lovers | Rick and Morty Website',
     date: 'April 2023',
-    image: 'https://firebasestorage.googleapis.com/v0/b/portfolio-fa11.appspot.com/o/images%2Fdatalovers.jpg?alt=media&token=f00bd623-f934-4765-9283-08ed9573b234',
+    image: 'https://firebasestorage.googleapis.com/v0/b/portfolio-fa111.appspot.com/o/images%2Fdatalovers.jpg?alt=media&token=f00bd623-f934-4765-9283-08ed9573b234',
     description: 'Website based on Rick and Morty television series that allows users to view, filter and sort the information according to your preferences.',
     liveLink: 'https://sofia-torres-v.github.io/Data-Lovers/src/index.html',
     githubLink: 'https://github.com/andrenavas/Data-Lovers',
