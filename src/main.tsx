@@ -13,19 +13,19 @@ import {
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Home/>,
+    element: <Home />,
   },
   {
     path: "/about",
-    element: <About/>,
+    element: <About />,
   },
   {
     path: "/projects",
-    element: <Projects/>,
+    element: <Projects />,
   },
   {
     path: "/contact",
-    element: <Contact/>,
+    element: <Contact />,
   },
 ])
 
