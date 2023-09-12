@@ -1,22 +1,15 @@
 import { slide as Menu } from 'react-burger-menu';
 import './Navbar.css'
+import { Link } from 'react-router-dom';
 
 const Navbar: React.FC = () => {
   return (
     <div className='container-nav'>
       <Menu width={'90%'} isOpen={false}>
-        <a id="hello" className="menu-item" href="/">
-          hello
-        </a>
-        <a id="about" className="menu-item" href="/about">
-          about-me
-        </a>
-        <a id="projects" className="menu-item" href="/projects">
-          projects
-        </a>
-        <a id="contact" className="menu-item" href="/contact">
-          contact-me
-        </a>
+        <Link to="/">hello</Link>
+        <Link to="/about">about-me</Link>
+        <Link to="/projects">projects</Link>
+        <Link to="/contact">contact-me</Link>
       </Menu>
       <div className='container-title-nav'>
         <span className='title-nav'>andre-navas</span>
