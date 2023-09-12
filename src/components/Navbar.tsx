@@ -4,7 +4,7 @@ import './Navbar.css'
 const Navbar: React.FC = () => {
   return (
     <div className='container-nav'>
-      <Menu width={'85%'} isOpen={false}>
+      <Menu width={'90%'} isOpen={false}>
         <a id="hello" className="menu-item" href="/">
           hello
         </a>

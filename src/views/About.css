@@ -1,7 +1,13 @@
+.container-about-view {
+  border-radius: 8px;
+  border: 1px solid #1E2D3D;
+  /* background: #011627; */
+  margin: 3%;
+}
 .about-header{
   /* border-bottom: 1px solid #1E2D3D; */
-  margin: 1em;
-  padding: 1em;
+  margin: 0 1em;
+  padding: 0 1em;
 }
 .container-title-about {
   margin: 2em;
@@ -12,11 +18,21 @@
   font-size: 14px;
 }
 
-.container-main-home{
+.container-main-about{
   margin: 2em;
   color: #607B96;
   display: flex;
   flex-direction: column;
+}
+
+.title-about-view{
+  color: #FF2599;
+  font-size: 18px;
+}
+
+.subtitle-about-view{
+  color: #43D9AD;
+  font-size: 14px;
 }
 
 .technology-list{

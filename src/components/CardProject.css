@@ -1,0 +1,63 @@
+.container-card-project {
+  width: 30rem;
+  height: 35rem;
+  background-color: #011221;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  border: 0.1rem solid #1E2D3D;
+  border-radius: 15px;
+  padding: 2rem;
+}
+
+.title-card-project {
+  font-size: 16px;
+  text-align: center;
+}
+
+.img-project {
+  width: 20rem;
+  border-radius: 10px;
+}
+
+.container-date-description-project {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+  gap: 1rem;
+}
+
+.container-links-projects {
+  /* background-color: green; */
+  width: 80%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 3rem;
+}
+
+/* PARA SEPARAR LAS LINEAS EN UN PARRAFO line-heigth: 5px; */
+
+.link-card-project {
+  padding: 1rem;
+  gap: 10px;
+  border-radius: 8px;
+  background: #1C2B3A;
+}
+
+.container-link-github {
+  cursor: pointer;
+  /* background-color: blue; */
+}
+
+
+.logo-github-project {
+  width: 25px;
+  display: flex;
+  align-items: center;
+}
