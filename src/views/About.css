@@ -2,12 +2,12 @@
   border-radius: 8px;
   border: 1px solid #1E2D3D;
   /* background: #011627; */
-  margin: 5%;
+  margin: 3%;
 }
 .about-header{
   /* border-bottom: 1px solid #1E2D3D; */
-  margin: 1em;
-  padding: 1em;
+  margin: 0 1em;
+  padding: 0 1em;
 }
 .container-title-about {
   margin: 2em;

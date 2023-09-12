@@ -1,21 +1,20 @@
-.projects-view{
+/* .projects-view{
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-}
+} */
 .container-projects-view {
-  width: 95%;
-  border: 1px solid #1E2D3D;
   border-radius: 8px;
-  height: 95vh;
+  border: 1px solid #1E2D3D;
+  margin: 5%;
   color: #E5E9F0;;
 }
 
 .container-projects{
   display: flex;
   flex-wrap: wrap;
-  gap: 0.5rem;
+  gap: 3rem;
   justify-content: center;
   align-items: center;
 }

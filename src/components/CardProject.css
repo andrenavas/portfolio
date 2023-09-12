@@ -6,13 +6,15 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 0.2rem;
+  gap: 2rem;
   border: 0.1rem solid #1E2D3D;
   border-radius: 15px;
+  padding: 2rem;
 }
 
 .title-card-project {
-  font-size: 12px;
+  font-size: 16px;
+  text-align: center;
 }
 
 .img-project {
@@ -20,32 +22,42 @@
   border-radius: 10px;
 }
 
-.container-links-projects{
-  background-color: green;
+.container-date-description-project {
   display: flex;
-  align-items: center;
-  justify-content: space-around;
-}
-
-.link-card-project{
-  background-color: red;
-}
-
-.container-link-github{
-  display: flex;
-  /* width: 15rem; */
-  cursor: pointer;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: blue;
+  text-align: justify;
+  gap: 1rem;
 }
-/* .link-github-project {
+
+.container-links-projects {
+  /* background-color: green; */
+  width: 80%;
   display: flex;
-  width: 15rem;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 3rem;
+}
+
+/* PARA SEPARAR LAS LINEAS EN UN PARRAFO line-heigth: 5px; */
+
+.link-card-project {
+  padding: 1rem;
+  gap: 10px;
+  border-radius: 8px;
+  background: #1C2B3A;
+}
+
+.container-link-github {
   cursor: pointer;
-} */
+  /* background-color: blue; */
+}
+
 
 .logo-github-project {
   width: 25px;
-  align-self: center;
+  display: flex;
+  align-items: center;
 }

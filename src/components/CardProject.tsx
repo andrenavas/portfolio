@@ -28,7 +28,7 @@ const CardProject: React.FC<CardProjectProps> = ({ project }) => {
         <p className='description-card-project'>{project.description}</p>
       </div>
       <div className='container-links-projects'>
-        <span className='link-card-project'> <a href={project.liveLink} target='_blank'></a>View Project</span>
+        <span className='link-card-project'> <a href={project.liveLink} target='_blank'></a>view-project</span>
         <div className='container-link-github'>
           <a href={project.githubLink} target='_blank' className='link-github-project'>
             <img src={logoGithub} className='logo-github-project' alt='logo github'></img>
