@@ -30,7 +30,7 @@ function Home() {
                     <span className='githubLinkCode'>const </span>
                     <span className='githubLinkVariable'>githubLink </span>
                     <span className='githubLinkOperator'>= </span>
-                    <a className='githubLinkURL' href='https://github.com/andrenavas'>'https://github.com/andrenavas'</a>
+                    <a className='githubLinkURL' href='https://github.com/andrenavas' target='_blank'>'https://github.com/andrenavas'</a>
                     <span className='githubLinkOperator'>;</span>
                   </p>
                 </div>
