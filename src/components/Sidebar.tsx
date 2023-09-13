@@ -24,6 +24,7 @@ const Sidebar = () => {
               <li><a href='#education'>education</a></li>
               <li><a href='#technologies'>technologies</a></li>
               <li><a href='#certifications'>certifications</a></li>
+              <li><a href='#resume'>resume</a></li>
             </ul>
           )}
           <li><a href='#hobbies'>

@@ -23,6 +23,16 @@
   color: #607B96;
   display: flex;
   flex-direction: column;
+  line-height: 1.8rem;
+  text-align:justify;
+  gap: 1rem;
+  font-size: 14px;
+}
+
+.bio, .education, .certifications{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
 }
 
 .title-about-view{
@@ -32,13 +42,77 @@
 
 .subtitle-about-view{
   color: #43D9AD;
-  font-size: 14px;
+  font-size: 16px;
+}
+
+.container-img-bio{
+  display: flex;
+}
+
+.container-img-bio > img{
+  width: 100%;
+  border-radius: 8px;
+}
+.education{
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+
+}
+.container-logo-date{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  gap: 1rem;
+}
+
+.container-logo-date > img{
+  width: 10%;
+  border-radius: 8px;
+}
+.education > h3{
+  font-size: 15px;
+  text-align: center;
+}
+
+.education > span{
+  text-align: right;
+}
+
+.education > a{
+  text-align: center;
 }
 
 .technology-list{
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 1em;
-  margin-top: 2em;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.contacts{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 10px;
+  /* background-color: red; */
+}
+
+.contacts > div {
+  /* background-color: red; */
+  display: flex;
+  /* flex-direction: row; */
+  align-items: center;
+  /* width: 85%; */
+  /* height: 10rem; */
+  text-align: justify;
+  gap: 5px;
+}
+
+.contacts > div > img{
+  width: 35px;
 }
