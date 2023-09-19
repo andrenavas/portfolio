@@ -27,10 +27,10 @@ const Sidebar = () => {
               <li><a href='#resume'>resume</a></li>
             </ul>
           )}
-          <li><a href='#hobbies'>
+          {/* <li><a href='#hobbies'>
             <img className='vector-img' src={vector} alt='vector' />
             hobbies
-          </a></li>
+          </a></li> */}
           <li> <a href='#contacts'>
             <img className='vector-img' src={vector} alt='vector' />
             contacts

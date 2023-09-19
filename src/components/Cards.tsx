@@ -10,7 +10,6 @@ interface CardsProps {
     technology: Technology;
 }
 
-
 const Cards: React.FC<CardsProps> = ({ technology }) => {
     return (
         <div className='container-card'>
