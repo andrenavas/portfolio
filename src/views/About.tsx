@@ -5,7 +5,8 @@ import Footer from '../components/Footer';
 import Sidebar from '../components/Sidebar';
 import Cards from '../components/Cards';
 import technologiesData from '../components/TechData';
-import logoGithub from '../assets/img/logoGithub.png'
+import logoGithub from '../assets/img/logoGithub.png';
+import 'animate.css';
 
 
 const About: React.FC = () => {
@@ -41,48 +42,63 @@ const About: React.FC = () => {
             <section className='education' id='education'>
               <h2 className='subtitle-about-view'> // education</h2>
 
-              <h3>Frontend Developer | Laboratoria</h3>
+              <h3>Frontend Developer</h3>
               <div className='container-logo-date'>
                 <span>2023</span>
                 <img src='https://firebasestorage.googleapis.com/v0/b/portfolio-fa111.appspot.com/o/images%2Flaboratoria-logo.png?alt=media&token=76ce0e13-1241-46b9-89b4-438e339da11d' alt='logo laboratoria' />
               </div>
-              <p>Laboratoria's program is an intensive coding bootcamp that strives to simulate a real workplace environment. Over the span of 6 months, participants engage in web projects, employing agile SCRUM methodologies, and honing the soft skills demanded by the technology industry. </p>
               <a href='https://www.laboratoria.la/' target='_blank'>View more about Laboratoria</a>
 
-              <h3>Industrial Engineer | UNEXPO</h3>
-              <span>2015</span>
-              <p>UNEXPO is a Polytechnic University located in Barquisimeto, Venezuela. With more than 40 years training leading Engineers in the labor market inside and outside Venezuela, graduated Industrial Engineers are trained in planning, studying, directing and controlling the analysis of the different methods, processes, systems of production procedures.</p>
+              <h3>Industrial Engineer</h3>
+              <div className='container-logo-date'>
+                <span>2015</span>
+                <img src='https://firebasestorage.googleapis.com/v0/b/portfolio-fa111.appspot.com/o/images%2Funexpo-logo.png?alt=media&token=ed230335-ad26-4fc9-a4e9-f6c748c42743' alt='logo unexpo' />
+              </div>
               <a href='https://virtualunexpo.com/' target='_blank'>View more about UNEXPO</a>
 
             </section>
             <section className='technologies' id='technologies'>
               <h2 className='subtitle-about-view'>// technologies</h2>
-              <span>Here you can see a list of the main technologies I use, to see more look at my Resume</span>
-              <a href='https://drive.google.com/file/d/1Yq6zk8mpngLwJqbR1Lm_84tPVhG8yWDg/view?usp=drive_link' target='_blank'>Here</a>
+              {/* <span>Here you can see a list of the main technologies I use, to see more look at my Resume</span> */}
+              {/* <a href='https://drive.google.com/file/d/1Yq6zk8mpngLwJqbR1Lm_84tPVhG8yWDg/view?usp=drive_link' target='_blank'>Here</a> */}
               <div className='technology-list'>
                 {technologiesData.map((technology) => (
                   <Cards key={technology.id} technology={technology} />
                 ))}
               </div>
             </section>
+
             <section className='certifications' id='certifications'>
               <h2 className='subtitle-about-view'> // certifications</h2>
-              <h3>English B1 Intermediate - English Platzi Academy | Currently studying </h3>
-              <a href='https://platzi.com/p/andreynanavas/curso/4989-expresiones-tiempo-cantidad/diploma/detalle/' target='_blank'>See the latest certificate</a>
-              <h3>React with Typescript - Código Facilito | 2023</h3>
-              <a href='https://drive.google.com/file/d/107Kxq4UeUiI3SuT6bMgZMhBwDys9IsT6/view' target='_blank'>See the certificate</a>
-              <h3>Data Analysis - Desafío Latam | 2023</h3>
-              <a href='https://cursos.desafiolatam.com/certificates/qn2txieutt' target='_blank'>See the certificate</a>
+              <h3>English B1 Intermediate</h3>
+              <div className='container-certification'>
+                <img src='https://firebasestorage.googleapis.com/v0/b/portfolio-fa111.appspot.com/o/images%2Fenglish-b1.jpg?alt=media&token=fe62ceac-6fd3-43ba-888c-36ca0eb90d91' alt='english certificate' />
+                <a href='https://platzi.com/p/andreynanavas/curso/4989-expresiones-tiempo-cantidad/diploma/detalle/' target='_blank'>View the certificate</a>
+              </div>
+              <h3>React with Typescript</h3>
+              <div className='container-certification'>
+                <img src='https://firebasestorage.googleapis.com/v0/b/portfolio-fa111.appspot.com/o/images%2Freact-typescript.jpg?alt=media&token=3eaa47b8-70c2-43c7-a903-20108783e199' alt='react with typescript certificate' />
+                <a href='https://drive.google.com/file/d/107Kxq4UeUiI3SuT6bMgZMhBwDys9IsT6/view' target='_blank'>View the certificate</a>
+              </div>
+              <h3>Data Analysis</h3>
+              <div className='container-certification'>
+                <img src='https://firebasestorage.googleapis.com/v0/b/portfolio-fa111.appspot.com/o/images%2Fdata-analysis.jpg?alt=media&token=f4eca502-d1b4-4960-b6ab-0886cc83f615' alt='data analysis certificate' />
+                <a href='https://cursos.desafiolatam.com/certificates/qn2txieutt' target='_blank'>View the certificate</a>
+              </div>
             </section>
+
             <section className='resume' id='resume'>
               <h2 className='subtitle-about-view'> // resume</h2>
-              <h3>Download my resume, click 👇</h3>
-              <a href='https://drive.google.com/file/d/1Yq6zk8mpngLwJqbR1Lm_84tPVhG8yWDg/view?usp=drive_link' target='_blank'>Resume Andreyna Navas</a>
+              <div className='container-resume'>
+                <h3>Download my resume, click 👇</h3>
+                <a className=' animate__animated animate__heartBeat' href='https://drive.google.com/file/d/1Yq6zk8mpngLwJqbR1Lm_84tPVhG8yWDg/view?usp=drive_link' target='_blank'>Resume Andreyna Navas</a>
+              </div>
             </section>
-            <h1 className='title-about-view'>hobbies</h1>
+            
+            {/* <h1 className='title-about-view'>hobbies</h1>
             <section className='hobbies' id='hobbies'>
               <p>I love workout using Nike Training App, I'm fan to comedy podcast and I enjoy going out with my family... </p>
-            </section>
+            </section> */}
             <h1 className='title-about-view'>contacts</h1>
             <section className='contacts' id='contacts'>
               <div className='contacts-gmail'>

@@ -14,7 +14,8 @@
 .container-projects{
   display: flex;
   flex-wrap: wrap;
-  gap: 3rem;
+  gap: 40px;
+  margin: 2%;
   justify-content: center;
   align-items: center;
 }
