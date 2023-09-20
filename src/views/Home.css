@@ -6,7 +6,7 @@
   align-items: center;
 }
 
-.container-home-view{
+.container-home-view {
   width: 95%;
   border: 1px solid #1E2D3D;
   border-radius: 8px;
@@ -21,7 +21,7 @@
 
 
 /* Main */
-.container-main-home{
+.container-main-home {
   min-height: calc(100vh - 138px);
   display: flex;
   flex-direction: column;
@@ -30,7 +30,7 @@
   gap: 20px;
 }
 
-.box{
+.box {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -39,18 +39,37 @@
   gap: 10px;
 }
 
-.container-hello{
+.container-hello {
   padding: 20px 0;
 }
 
 .title-home {
   color: #E5E9F0;
   font-size: 5rem;
+  /* display: inline-block; */
+  overflow: hidden;
+  white-space: nowrap;
+  animation: writetitle 2s steps(40, end) 1.5s;
+  /* Inicia la animación después de 3 segundos */
+  border-right: 2px solid transparent;
+  /* Cambia a transparent para ocultar el cursor */
+
 }
 
 .span-hello {
   color: #E5E9F0;
   font-size: 1.8rem;
+  display: inline-block;
+  overflow: hidden;
+  /* Para ocultar el texto original */
+  white-space: nowrap;
+  /* Para que el texto no se divida en múltiples líneas */
+  animation: write 2s steps(40, end);
+  border-right: 2px solid transparent;
+  /* border-right: 2px solid #000; */
+  /* Simula el cursor de escritura */
+  /* padding-right: 8px; */
+  /* Espacio entre el cursor y el texto */
 }
 
 .span-frontend {
@@ -58,7 +77,8 @@
   font-size: 20px;
 
 }
-.container-github-profile{
+
+.container-github-profile {
   /* background-color: #4D5BCE; */
   padding: 20px 0;
 }
@@ -68,14 +88,38 @@
   font-size: 14px;
 }
 
-.containerGithubLink{
+.containerGithubLink {
   /* background-color: #FF2599; */
   padding-top: 5px;
+  font-size: 14px;
+  line-height: 25px;
+  /* background-color: red; */
 }
+
 .githubLinkCode {
   color: #4D5BCE;
 }
 
 .githubLinkVariable {
   color: #43D9AD;
+}
+
+@keyframes write{
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes writetitle{
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 100%;
+  }
 }

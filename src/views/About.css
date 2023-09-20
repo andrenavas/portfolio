@@ -46,12 +46,13 @@
 }
 
 .container-img-bio{
-  display: flex;
+  margin: 0 auto;
 }
 
 .container-img-bio > img{
   width: 100%;
   border-radius: 8px;
+  align-self: center;
 }
 .education{
   /* background-color: red; */
@@ -85,6 +86,9 @@
   text-align: center;
 }
 
+.technologies{
+margin: 10px;
+}
 .technology-list{
   display: flex;
   justify-content: center;
@@ -124,6 +128,7 @@
 .container-resume > a{
   font-size: 1.5rem;
   border-bottom: 1px solid #FF2599;
+  
 }
 .contacts{
   display: flex;

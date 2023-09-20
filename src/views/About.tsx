@@ -5,7 +5,8 @@ import Footer from '../components/Footer';
 import Sidebar from '../components/Sidebar';
 import Cards from '../components/Cards';
 import technologiesData from '../components/TechData';
-import logoGithub from '../assets/img/logoGithub.png'
+import logoGithub from '../assets/img/logoGithub.png';
+import 'animate.css';
 
 
 const About: React.FC = () => {
@@ -57,8 +58,8 @@ const About: React.FC = () => {
 
             </section>
             <section className='technologies' id='technologies'>
-              {/* <h2 className='subtitle-about-view'>// technologies</h2>
-              <span>Here you can see a list of the main technologies I use, to see more look at my Resume</span> */}
+              <h2 className='subtitle-about-view'>// technologies</h2>
+              {/* <span>Here you can see a list of the main technologies I use, to see more look at my Resume</span> */}
               {/* <a href='https://drive.google.com/file/d/1Yq6zk8mpngLwJqbR1Lm_84tPVhG8yWDg/view?usp=drive_link' target='_blank'>Here</a> */}
               <div className='technology-list'>
                 {technologiesData.map((technology) => (
@@ -90,7 +91,7 @@ const About: React.FC = () => {
               <h2 className='subtitle-about-view'> // resume</h2>
               <div className='container-resume'>
                 <h3>Download my resume, click 👇</h3>
-                <a href='https://drive.google.com/file/d/1Yq6zk8mpngLwJqbR1Lm_84tPVhG8yWDg/view?usp=drive_link' target='_blank'>Resume Andreyna Navas</a>
+                <a className=' animate__animated animate__heartBeat' href='https://drive.google.com/file/d/1Yq6zk8mpngLwJqbR1Lm_84tPVhG8yWDg/view?usp=drive_link' target='_blank'>Resume Andreyna Navas</a>
               </div>
             </section>
             

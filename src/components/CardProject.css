@@ -1,15 +1,62 @@
 .container-card-project {
-  width: 90%;
-  height: 10%;
+  width: 340px;
+  height: 380px;
   background-color: #011221;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 2rem;
   border: 0.1rem solid #1E2D3D;
   border-radius: 15px;
-  padding: 2rem;
+  padding: 10px;
+  transform-style: preserve-3d;
+  transition: transform 0s;
+  position: relative;
+}
+
+.container-card-project.flipped {
+  transform: rotateY(180deg);
+}
+
+.card-front, .card-back {
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  margin: 20px;
+  width: 320px;
+  height: 360px;
+}
+
+.card-back {
+  background-color: #ff259993;
+  border-radius: 10px;
+  display: none;
+  font-size: 14px;
+  padding: 10px;
+}
+
+.card-back-content {
+  transform: rotateY(-180deg);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 40px;
+  /* background-color: red; */
+  height: 100%;
+  text-align: justify;
+  /* margin: 5px; */
+}
+
+.container-card-project.flipped .card-front {
+  display: none;
+}
+
+.container-card-project.flipped .card-back {
+  display: block;
 }
 
 .title-card-project {
@@ -22,14 +69,14 @@
   border-radius: 10px;
 }
 
-.container-date-description-project {
+/* .container-date-description-project {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: justify;
   gap: 1rem;
-}
+} */
 
 .container-links-projects {
   /* background-color: green; */
@@ -58,4 +105,9 @@
   width: 25px;
   display: flex;
   align-items: center;
+}
+
+.logo-github-project:hover{
+  background-color:#1C2B3A;
+  border-radius: 100px;
 }
