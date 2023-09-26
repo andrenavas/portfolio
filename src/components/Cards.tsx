@@ -15,7 +15,7 @@ const Cards: React.FC<CardsProps> = ({ technology }) => {
         <div className='container-card'>
             <span className='title-card'>{technology.name}</span>
             {/* <figure className='container-img'> */}
-                <img className='logo-tech' src={technology.image} alt='technologies logo' />
+            <img className='logo-tech' src={technology.image} alt='technologies logo' />
             {/* </figure> */}
         </div>
     )

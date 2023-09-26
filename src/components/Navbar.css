@@ -1,4 +1,4 @@
-.container-nav{
+.container-mobile, .container-desktop{
   width: 90%;
   margin: 0 auto;
   justify-content: space-between;
@@ -8,10 +8,30 @@
   border-bottom: 1px solid #1E2D3D;
 }
 
+.container-desktop{
+  padding: 0.8rem;
+}
+.desktop-menu {
+  width: 65%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.8rem;
+}
+
+.desktop-menu a {
+  color: #607B96;
+  font-size: 16px;
+  text-decoration: none;
+  margin: 0 10px; /* Espacio entre elementos del menú */
+}
+
+
 .title-nav {
   color: #607B96;
   font-size: 16px;
 }
+
 /* Position and sizing of burger button */
 .bm-burger-button {
   position: relative;
@@ -87,6 +107,10 @@ a :hover, :active{
   color: #607B96;
 }
 
+.link:hover{
+  color: white;
+}
+
 /* Individual item */
 .bm-item {
   display: inline-block;
@@ -97,3 +121,16 @@ a :hover, :active{
   /* background: rgba(0, 0, 0, 0.3); */
   background: black;
 }
+
+.active-link {
+  color: #abbaca;
+  border-bottom: 1px solid #FF2599;
+}
+
+@media (max-width:750px) {
+  .active-link {
+    color: #FF2599;
+    border-bottom: none;
+  }
+}
+
