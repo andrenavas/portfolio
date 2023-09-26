@@ -4,11 +4,14 @@
   /* background: #011627; */
   margin: 3%;
 }
-.about-header{
+
+.about-header,
+.sidebar {
   /* border-bottom: 1px solid #1E2D3D; */
   margin: 0 1em;
   padding: 0 1em;
 }
+
 .container-title-about {
   margin: 2em;
 }
@@ -18,119 +21,151 @@
   font-size: 14px;
 }
 
-.container-main-about{
-  margin: 2em;
-  color: #607B96;
+.container-main-about {
+  margin: 20px;
+  color: #c7d4e0;
   display: flex;
   flex-direction: column;
-  line-height: 1.8rem;
-  text-align:justify;
-  gap: 1rem;
-  font-size: 14px;
+  line-height: 23px;
+  /* text-align:justify; */
+  gap: 40px;
+  font-size: 1.5rem;
 }
 
-.bio, .education, .certifications{
+.bio,
+.education,
+.certifications {
   display: flex;
   flex-wrap: wrap;
-  gap: 2rem;
+  gap: 30px;
 }
 
-.title-about-view{
+.title-about-view {
   color: #FF2599;
-  font-size: 18px;
+  font-size: 2rem;
+  margin-top: 20px;
 }
 
-.subtitle-about-view{
+.subtitle-about-view {
   color: #43D9AD;
-  font-size: 16px;
+  font-size: 1.8rem;
 }
 
-.container-img-bio{
+.bio>p {
+  font-size: 1.5rem;
+}
+
+.container-img-bio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
   margin: 0 auto;
 }
 
-.container-img-bio > img{
+.container-img-bio>img {
   width: 100%;
   border-radius: 8px;
   align-self: center;
 }
-.education{
+
+.education {
   /* background-color: red; */
   display: flex;
   flex-direction: column;
   margin-top: 10px;
 
 }
-.container-logo-date{
+
+.container-education{
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap:15px;
+  padding: 5px;
+  /* background-color: red; */
+}
+
+.education>h3 {
+  text-align: center;
+}
+
+.container-logo-education {
+  display: flex;
+  justify-content: space-between;
   align-items: center;
   width: 100%;
-  gap: 1rem;
+  gap: 30px;
 }
 
-.container-logo-date > img{
-  width: 10%;
+.logo-education{
+  width: 50px;
   border-radius: 8px;
 }
-.education > h3{
-  font-size: 15px;
-  text-align: center;
-}
 
-.education > span{
-  text-align: right;
-}
-
-.education > a{
-  text-align: center;
-}
-
-.technologies{
-margin: 10px;
-}
-.technology-list{
+.technology-list {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 1rem;
-  margin-top: 2rem;
+  gap: 50px;
+  margin-top: 20px;
 }
-.container-certification{
+
+
+.container-certification {
   display: flex;
   flex-direction: column;
-  justify-content:center;
+  justify-content: center;
   align-items: center;
   width: 100%;
-  gap: 1rem;
-}
-
-.container-certification > img{
-  width: 80%;
-  border-radius: 8px;
-}
-
-.resume{
-  display: flex;
-  flex-direction: column;
   gap: 10px;
 }
 
-.container-resume{
+.container-certification>a {
+  border-radius: 8px;
+  width: 300px;
+}
+
+.container-certification>a>img {
+  width: 100%;
+}
+
+.resume {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  /* margin-top: 30px; */
+  /* background-color: red; */
+}
+
+.container-resume {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 10px;
-  margin: 10px;
+  /* background-color: blue; */
 }
 
-.container-resume > a{
-  font-size: 1.5rem;
-  border-bottom: 1px solid #FF2599;
-  
+button {
+  color: var(--color);
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
 }
-.contacts{
+
+button:hover,
+button:focus {
+  border-color: var(--hover);
+  color: #fff;
+}
+
+.btn>a {
+  color: #a972cb;
+}
+
+.contacts {
   display: flex;
   flex-direction: column;
   /* justify-content: space-around; */
@@ -140,7 +175,7 @@ margin: 10px;
   /* background-color: red; */
 }
 
-.contacts > div {
+.contacts>div {
   /* background-color: red; */
   display: flex;
   /* flex-direction: row; */
@@ -151,6 +186,38 @@ margin: 10px;
   gap: 5px;
 }
 
-.contacts > div > img{
+.contacts>div>img {
   width: 35px;
+}
+
+@media (min-width: 750px) {
+  .container-sidebar-main {
+    /* background-color: red; */
+    display: flex;
+    flex-direction: row;
+  }
+
+  .container-main-about{
+    /* background-color: #FF2599; */
+    width: 700px;
+    border-left: 1px solid #1E2D3D;
+    padding-left: 20px;
+  }
+
+  /* .sidebar {
+    background-color: black;
+  } */
+
+  .container-img-bio>img {
+    width: 500px;
+  }
+
+  /* .container-education{
+    background-color: red;
+    flex-direction: row;
+  } */
+
+  .container-logo-education>img{
+    width: 50px;
+  }
 }

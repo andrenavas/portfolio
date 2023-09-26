@@ -8,7 +8,7 @@
   border-radius: 8px;
   border: 1px solid #1E2D3D;
   margin: 5%;
-  color: #E5E9F0;;
+  color: #FFFF;
 }
 
 .container-projects{
@@ -18,4 +18,9 @@
   margin: 2%;
   justify-content: center;
   align-items: center;
+}
+
+button:hover, button:focus {
+  border-color: var(--hover);
+  color: #fff;
 }

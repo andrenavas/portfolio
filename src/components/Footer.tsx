@@ -6,16 +6,18 @@ const Footer = () => {
     <div>
       <footer>
         <div className='container-footer'>
-          <span> find me in:</span>
-          <div className='container-linkedin-logo'>
-            <a href='https://www.linkedin.com/in/andreynanavas-front-end-developer/' target='_blank' className='link-linkedin'>
-              <img src={logoLinkedIn} className='logo-linkedin' alt='logo linkedin'></img>
-            </a>
-          </div>
-          <div className='container-github-logo'>
-            <a href='https://github.com/andrenavas/' target='_blank' className='link-github'>
-              <img src={logoGithub} className='logo-github' alt='logo github'></img>
-            </a>
+          <div className='container-span-image'>
+            <span> find me in:</span>
+            <div className='container-linkedin-logo'>
+              <a href='https://www.linkedin.com/in/andreynanavas-front-end-developer/' target='_blank' className='link-linkedin'>
+                <img src={logoLinkedIn} className='logo-linkedin' alt='logo linkedin'></img>
+              </a>
+            </div>
+            <div className='container-github-logo'>
+              <a href='https://github.com/andrenavas/' target='_blank' className='link-github'>
+                <img src={logoGithub} className='logo-github' alt='logo github'></img>
+              </a>
+            </div>
           </div>
         </div>
       </footer>

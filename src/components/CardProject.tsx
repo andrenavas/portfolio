@@ -1,6 +1,7 @@
 import './CardProject.css'
 import logoGithub from '../assets/img/logoGithub.png'
 import { useState } from 'react';
+import Button from '../components/Button'
 
 interface Project {
   id: number;
@@ -36,7 +37,7 @@ const CardProject: React.FC<CardProjectProps> = ({ project }) => {
         <div className='container-links-projects'>
           <div className='containter-live-link'>
             <a href={project.liveLink} target='_blank'>
-              <span className='link-card-project'>view-project</span>
+              <Button descriptionButton='view-project' />
             </a>
           </div>
 
@@ -50,10 +51,10 @@ const CardProject: React.FC<CardProjectProps> = ({ project }) => {
 
       <div className='card-back'>
         <div className='card-back-content'>
-        <span className='title-card-project'>{project.name}</span>
+          <span className='title-card-project'>{project.name}</span>
           {/* <div className='container-date-description-project'> */}
-            <p className='description-card-project'>{project.description}</p>
-            <span className='date-card-project'>{project.date}</span>
+          <p className='description-card-project'>{project.description}</p>
+          <span className='date-card-project'>{project.date}</span>
           {/* </div> */}
         </div>
       </div>

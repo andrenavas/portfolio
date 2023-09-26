@@ -74,24 +74,25 @@
 
 .span-frontend {
   color: #FF2599;
-  font-size: 20px;
+  font-size: 2rem;
 
 }
 
 .container-github-profile {
   /* background-color: #4D5BCE; */
   padding: 20px 0;
+  font-size: 1.5rem;
 }
 
 .titleGithubProfile {
   color: #607B96;
-  font-size: 14px;
+  /* font-size: 14px; */
 }
 
 .containerGithubLink {
   /* background-color: #FF2599; */
   padding-top: 5px;
-  font-size: 14px;
+  /* font-size: 14px; */
   line-height: 25px;
   /* background-color: red; */
 }
@@ -121,5 +122,24 @@
 
   to {
     width: 100%;
+  }
+}
+
+@media (min-width: 750px) {
+  .span-hello{
+    font-size: 3rem;
+  }
+
+  .title-home{
+    /* background-color: yellow; */
+    font-size: 7rem;
+  }
+
+  .span-frontend{
+    font-size: 3rem;
+  }
+
+  .container-github-profile{
+    font-size: 1.8rem;
   }
 }
