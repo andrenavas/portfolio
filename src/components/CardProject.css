@@ -1,17 +1,18 @@
 .container-card-project {
   width: 340px;
-  height: 380px;
+  height: 400px;
   background-color: #011221;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  border: 0.1rem solid #1E2D3D;
+  border: 2px solid #1E2D3D;
   border-radius: 15px;
-  padding: 10px;
+  padding: 30px;
   transform-style: preserve-3d;
   transition: transform 0s;
   position: relative;
+  /* background-color: red; */
 }
 
 .container-card-project.flipped {
@@ -25,13 +26,13 @@
   justify-content: center;
   align-items: center;
   gap: 25px;
-  margin: 20px;
+  /* margin: 30px; */
   width: 320px;
   height: 360px;
 }
 
 .card-back {
-  background-color: #ff259993;
+  /* background-color: #ff259993; */
   border-radius: 10px;
   display: none;
   font-size: 14px;
@@ -62,6 +63,16 @@
 .title-card-project {
   font-size: 16px;
   text-align: center;
+  /* border-bottom: 1px solid #FF2599; */
+}
+
+.container-img-project{
+  /* background-color: blue; */
+  width: 300px;
+  height: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .img-project {
@@ -102,7 +113,7 @@
 
 
 .logo-github-project {
-  width: 25px;
+  width: 30px;
   display: flex;
   align-items: center;
 }

@@ -3,6 +3,7 @@ import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 // import blue from '../assets/img/blue.png'
 // import green from '../assets/img/green.png'
+import Button from '../components/Button'
 
 function Home() {
 
@@ -35,9 +36,8 @@ function Home() {
                   </p>
                 </div>
               </div>
-
             </div>
-
+            <Button linkTo='./projects' descriptionButton='view-projects'/>
           </section>
 
         </main>

@@ -3,6 +3,7 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import CardProject from '../components/CardProject';
 import projectsData from '../components/ProjectsData';
+
 const Projects: React.FC = () => {
   return (
     <section className='projects-view'>

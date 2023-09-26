@@ -19,7 +19,7 @@ const technologiesData = [
   {
     id: 4,
     name: 'CSS',
-    image: 'https://firebasestorage.googleapis.com/v0/b/portfolio-fa111.appspot.com/o/images%2Fcss.png?alt=media&token=22fa0359-49ed-4ba9-a6fd-b25188d2cc0d',
+    image: 'https://firebasestorage.googleapis.com/v0/b/portfolio-fa111.appspot.com/o/images%2Fcss.png?alt=media&token=46d8891a-37eb-4024-b115-749549a52571',
   },
   {
     id: 5,
