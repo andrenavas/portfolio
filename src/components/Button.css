@@ -24,6 +24,7 @@ button {
   color: var(--color);
   -webkit-transition: 0.25s;
   transition: 0.25s;
+  cursor: pointer;
 }
 button:hover, button:focus {
   border-color: var(--hover);
