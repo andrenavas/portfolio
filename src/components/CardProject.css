@@ -9,10 +9,18 @@
   border: 2px solid #1E2D3D;
   border-radius: 15px;
   padding: 30px;
+  transition: transform 0.5s ease;
   transform-style: preserve-3d;
-  transition: transform 0s;
   position: relative;
+  cursor: pointer;
   /* background-color: red; */
+}
+
+.container-card-project:hover,
+.container-card-project:active {
+  transform: translate(0, -5px); /* Mueve la tarjeta hacia arriba cuando se pasa el cursor */
+  box-shadow: 0 10px 20px rgba(248, 247, 247, 0.5); /* Agrega una sombra cuando se pasa el cursor */
+  opacity: 0.9; /* Reduce la opacidad al pasar el cursor sobre la tarjeta */
 }
 
 .container-card-project.flipped {
@@ -37,6 +45,7 @@
   display: none;
   font-size: 14px;
   padding: 10px;
+  /* transform: rotateY(-180deg); */
 }
 
 .card-back-content {
