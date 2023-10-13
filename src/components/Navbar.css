@@ -127,7 +127,7 @@ a :hover, :active{
   border-bottom: 1px solid #FF2599;
 }
 
-.container-title-nav{
+.container-logo-nav{
   /* background-color: red; */
   max-width: 60px;
   height: auto;
@@ -141,6 +141,14 @@ a :hover, :active{
   .active-link {
     color: #FF2599;
     border-bottom: none;
+  }
+
+}
+
+@media (min-width: 750px){
+  .container-logo-nav{
+    max-width: 80px;
+    /* background-color: red; */
   }
 }
 
