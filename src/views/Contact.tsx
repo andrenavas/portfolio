@@ -49,7 +49,7 @@ const Contact: React.FC = () => {
         <header className='contact-header'>
           <Navbar />
           <div className='container-title-about'>
-            <span className='title-about'>contact-me</span>
+            {/* <span className='title-about'>contact-me</span> */}
           </div>
         </header>
 

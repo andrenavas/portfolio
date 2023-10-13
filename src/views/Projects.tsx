@@ -11,7 +11,7 @@ const Projects: React.FC = () => {
         <header className='about-header'>
           <Navbar />
           <div className='container-title-about'>
-            <span className='title-about'>projects</span>
+            {/* <span className='title-about'>projects</span> */}
           </div>
         </header>
         <main>

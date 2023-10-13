@@ -18,7 +18,7 @@ const About: React.FC = () => {
         <header className='about-header'>
           <Navbar />
           <div className='container-title-about'>
-            <span className='title-about'>about-me</span>
+            {/* <span className='title-about'>about-me</span> */}
           </div>
           {/* <div className='container-sidebar'>
             <Sidebar />
