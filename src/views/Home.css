@@ -95,6 +95,7 @@
   /* font-size: 14px; */
   line-height: 25px;
   /* background-color: red; */
+  color: white;
 }
 
 .githubLinkCode {
@@ -103,6 +104,10 @@
 
 .githubLinkVariable {
   color: #43D9AD;
+}
+
+.githubLinkURL{
+  border-bottom: 1px solid white;
 }
 
 @keyframes write{

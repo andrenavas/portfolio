@@ -43,7 +43,7 @@ const CardProject: React.FC<CardProjectProps> = ({ project }) => {
 
           <div className='container-link-github'>
             <a href={project.githubLink} target='_blank' className='link-github-project'>
-              <img src={logoGithub} className='logo-github-project' alt='logo github'></img>
+              <img src={logoGithub} className='logo-github-project fill' alt='logo github'></img>
             </a>
           </div>
         </div>

@@ -16,7 +16,7 @@ const Contact: React.FC = () => {
 
   const refForm = useRef<HTMLFormElement | null>(null);
 
-  const { register, handleSubmit, formState: { errors } } = useForm<FormData>();
+  const { register, handleSubmit, formState: { errors }, reset } = useForm<FormData>();
 
   // const onSubmit: SubmitHandler<FormData> = () => {
 
@@ -37,7 +37,7 @@ const Contact: React.FC = () => {
       const apiKey = 'zm6FfodrnHMmVyw9R';
 
       emailjs.sendForm(serviceId, templateId, refForm.current, apiKey)
-        .then(result => console.log(result.text))
+        .then(result => { console.log(result.text), reset(); })
         .catch(error => console.error(error));
     }
   };

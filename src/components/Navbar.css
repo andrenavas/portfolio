@@ -3,7 +3,7 @@
   margin: 0 auto;
   justify-content: space-between;
   display: flex;
-  padding: 1.8rem;
+  padding: 0.8rem;
   align-items: center;
   border-bottom: 1px solid #1E2D3D;
 }
@@ -127,6 +127,16 @@ a :hover, :active{
   border-bottom: 1px solid #FF2599;
 }
 
+.container-title-nav{
+  /* background-color: red; */
+  max-width: 60px;
+  height: auto;
+  display: flex;
+}
+
+.nav-img-logo{
+  width: 100%;
+}
 @media (max-width:750px) {
   .active-link {
     color: #FF2599;
