@@ -34,16 +34,22 @@
 
 .bio,
 .education,
-.certifications {
+.certifications,
+.technologies {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
 }
 
-.title-about-view {
+.title-about-view,
+.title-about-view-contact {
   color: #FF2599;
   font-size: 2rem;
-  margin-top: 20px;
+
+}
+
+.title-about-view {
+  margin-top: 10px;
 }
 
 .subtitle-about-view {
@@ -56,18 +62,25 @@
 }
 
 .container-img-bio {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
+  max-width: 300px;
   margin: 0 auto;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* background-color: red; */
 }
 
-.container-img-bio>img {
+.img-container {
+  max-width: 200px;
+  height: auto;
+  /* background-color: blue;  */
+}
+
+.img-bio {
   width: 100%;
-  border-radius: 8px;
-  align-self: center;
+  border-radius: 100px;
 }
 
 .education {
@@ -78,12 +91,12 @@
 
 }
 
-.container-education{
+.container-education {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap:15px;
+  gap: 15px;
   padding: 5px;
   /* background-color: red; */
 }
@@ -100,7 +113,7 @@
   gap: 30px;
 }
 
-.logo-education{
+.logo-education {
   width: 50px;
   border-radius: 8px;
 }
@@ -146,7 +159,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 10px;
+  gap: 20px;
   /* background-color: blue; */
 }
 
@@ -169,15 +182,12 @@ button:focus {
 .contacts {
   display: flex;
   flex-direction: column;
-  /* justify-content: space-around; */
-  /* justify-content: center; */
-  /* align-items: center; */
   gap: 10px;
   /* background-color: red; */
+  margin-top: -20px;
 }
 
 .contacts>div {
-  /* background-color: red; */
   display: flex;
   /* flex-direction: row; */
   align-items: center;
@@ -198,7 +208,7 @@ button:focus {
     flex-direction: row;
   }
 
-  .container-main-about{
+  .container-main-about {
     /* background-color: #FF2599; */
     width: 700px;
     border-left: 1px solid #1E2D3D;
@@ -218,7 +228,7 @@ button:focus {
     flex-direction: row;
   } */
 
-  .container-logo-education>img{
+  .container-logo-education>img {
     width: 50px;
   }
 }

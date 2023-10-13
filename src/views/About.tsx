@@ -43,9 +43,12 @@ const About: React.FC = () => {
                   I'm committed to continue learning, grow in my career and contribute to the success of the projects in which I collaborate.
                 </p>
                 <div className='container-img-bio'>
+                  <div className='img-container'>
+                    <img className='img-bio' src='https://firebasestorage.googleapis.com/v0/b/portfolio-fa111.appspot.com/o/images%2Fandrenavas.jpg?alt=media&token=eee8b967-20c3-4aaa-94bf-99b57af0889f&_gl=1*5nypbv*_ga*MjE3MzcyMTAzLjE2ODAzNTU6MDA.*_ga_CW55HF8NVT*MTY5NzE0NTQwOC42Ny4xLjE2OTcxNDU0NjQuNC4wLjA.' alt='bio image' />
+                  </div>
                   <Button linkTo='/projects' descriptionButton='view-projects' />
-                  <img src='https://firebasestorage.googleapis.com/v0/b/portfolio-fa111.appspot.com/o/images%2Fandrenavas-code.png?alt=media&token=838ffa58-4385-43c1-85fe-35d57fa56b2a' alt='bio image' />
                 </div>
+
               </section>
               <section className='education' id='education'>
                 <h2 className='subtitle-about-view'> // education</h2>
@@ -125,21 +128,18 @@ const About: React.FC = () => {
             <section className='hobbies' id='hobbies'>
               <p>I love workout using Nike Training App, I'm fan to comedy podcast and I enjoy going out with my family... </p>
             </section> */}
-              <h1 className='title-about-view'>contacts</h1>
+              <h1 className='title-about-view-contact'>contacts</h1>
               <section className='contacts' id='contacts'>
                 <div className='contacts-gmail'>
                   <img className='logo-gmail-contact' src='https://firebasestorage.googleapis.com/v0/b/portfolio-fa111.appspot.com/o/images%2Flogo-gmail.png?alt=media&token=8f6957a6-2001-4001-ac5d-0510b759dd30' alt='logo-gmail' />
-                  {/* <h3>Gmail</h3> */}
-                  <a href='andreynanavas@gmail.com' target='_blank'>andreynanavas@gmail.com</a>
+                  <a href='mailto:andreynanavas@gmail.com' target='_blank'>andreynanavas@gmail.com</a>
                 </div>
                 <div className='contacts-linkedin'>
                   <img className='logo-linkedin-contact' src='https://firebasestorage.googleapis.com/v0/b/portfolio-fa111.appspot.com/o/images%2Flogo-linkedin.png?alt=media&token=c1c019a3-a878-4802-a837-05c1d5fcad6b' alt='logo-linkedin' />
-                  {/* <h3>LinkedIn</h3> */}
                   <a href='https://www.linkedin.com/in/andreynanavas-front-end-developer/' target='_blank'>in/andreynanavas</a>
                 </div>
                 <div className='contacts-github'>
                   <img className='logo-github-contact' src={logoGithub} alt='logo-github' />
-                  {/* <h3>Github</h3> */}
                   <a href='https://github.com/andrenavas' target='_blank'>github.com/andrenavas</a>
                 </div>
               </section>

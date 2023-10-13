@@ -44,7 +44,8 @@
   border-radius: 10px;
   display: none;
   font-size: 14px;
-  padding: 10px;
+  /* padding: 10px; */
+  
   /* transform: rotateY(-180deg); */
 }
 
@@ -58,6 +59,7 @@
   /* background-color: red; */
   height: 100%;
   text-align: justify;
+  margin: 0 20px;
   /* margin: 5px; */
 }
 
@@ -128,6 +130,7 @@
 }
 
 .logo-github-project:hover{
-  background-color:#1C2B3A;
+  /* background-color:#1C2B3A; */
   border-radius: 100px;
+  /* color: white; */
 }

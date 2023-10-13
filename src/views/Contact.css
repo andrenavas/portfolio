@@ -46,10 +46,12 @@ form {
     align-items: center; */
   /* max-width: 500px; */
   color: white;
+  /* font-family: "Fira Code", monospace; */
 }
 
 input {
   padding: 5px;
+  font-family: "Fira Code", monospace;
 }
 
 textarea {
@@ -58,6 +60,7 @@ textarea {
   overflow-wrap: break-word;
   vertical-align: top;
   padding: 10px;
+  font-family: "Fira Code", monospace;
 }
 
 @media (min-width: 750px){
