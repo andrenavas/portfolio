@@ -132,17 +132,14 @@ const About: React.FC = () => {
               <section className='contacts' id='contacts'>
                 <div className='contacts-gmail'>
                   <img className='logo-gmail-contact' src='https://firebasestorage.googleapis.com/v0/b/portfolio-fa111.appspot.com/o/images%2Flogo-gmail.png?alt=media&token=8f6957a6-2001-4001-ac5d-0510b759dd30' alt='logo-gmail' />
-                  {/* <h3>Gmail</h3> */}
-                  <a href='andreynanavas@gmail.com' target='_blank'>andreynanavas@gmail.com</a>
+                  <a href='mailto:andreynanavas@gmail.com' target='_blank'>andreynanavas@gmail.com</a>
                 </div>
                 <div className='contacts-linkedin'>
                   <img className='logo-linkedin-contact' src='https://firebasestorage.googleapis.com/v0/b/portfolio-fa111.appspot.com/o/images%2Flogo-linkedin.png?alt=media&token=c1c019a3-a878-4802-a837-05c1d5fcad6b' alt='logo-linkedin' />
-                  {/* <h3>LinkedIn</h3> */}
                   <a href='https://www.linkedin.com/in/andreynanavas-front-end-developer/' target='_blank'>in/andreynanavas</a>
                 </div>
                 <div className='contacts-github'>
                   <img className='logo-github-contact' src={logoGithub} alt='logo-github' />
-                  {/* <h3>Github</h3> */}
                   <a href='https://github.com/andrenavas' target='_blank'>github.com/andrenavas</a>
                 </div>
               </section>
