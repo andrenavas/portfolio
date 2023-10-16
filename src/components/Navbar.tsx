@@ -24,7 +24,7 @@ const Navbar: React.FC = () => {
   return (
     <div className={isMobile ? 'container-mobile' : 'container-desktop'}>
       {isMobile ? (
-        <Menu width={'90%'} isOpen={false}>
+        <Menu width={'95%'} isOpen={false}>
           <Link to='/' className={isLinkActive('/') ? 'active-link' : ''}>hello</Link>
           <Link to='/about' className={isLinkActive('/about') ? 'active-link' : ''}>about-me</Link>
           <Link to='/projects' className={isLinkActive('/projects') ? 'active-link' : ''}>projects</Link>

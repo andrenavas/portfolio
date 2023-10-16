@@ -23,7 +23,7 @@
   color: #607B96;
   font-size: 16px;
   text-decoration: none;
-  margin: 0 10px; /* Espacio entre elementos del menú */
+  margin: 0 10px;
 }
 
 
@@ -59,7 +59,7 @@
 /* Color/shape of close button cross */
 .bm-cross {
   /* background: #bdc3c7; */
-  background: black;
+  background: white;
 }
 
 /*
@@ -76,7 +76,7 @@
 /* General sidebar styles */
 .bm-menu {
   /* background: #373a47; */
-  background: #1e2d3dd5;
+  background: #1e2d3df6;
   padding: 2.5em 1.5em 0;
   font-size: 1.8em;
 }
