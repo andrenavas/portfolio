@@ -1,8 +1,9 @@
 # Andre Navas Dev Portfolio Website - English Version
 
-:::::center
-![andrenavas-logo](https://firebasestorage.googleapis.com/v0/b/portfolio-fa111.appspot.com/o/images%2Flogo-andre-navas.png?alt=media&token=3c70f877-581e-44e9-ac45-d07b2a0c5ebf&_gl=1*1i4nm4r*_ga*MjE3MzcyMTAzLjE6NzYzNDMxMTg*MTY5NzQ4NzEyMi4xMi4wLjA.*_ga_KLQRJ1WT2Y*MTY5NzQ4NzEyMi4xMi4wLjA)
-:::::
+
+<div align="center">
+  <img src="https://firebasestorage.googleapis.com/v0/b/portfolio-fa111.appspot.com/o/images%2Flogo-andre-navas.png?alt=media&token=3c70f877-581e-44e9-ac45-d07b2a0c5ebf&_gl=1*1i4nm4r*_ga*MjE3MzcyMTAzLjE6NzYzNDMxMTg*MTY5NzQ4NzEyMi4xMi4wLjA.*_ga_KLQRJ1WT2Y*MTY5NzQ4NzEyMi4xMi4wLjA" alt="andrenavas-logo">
+</div>
 
 
 Hello world, welcome to my portfolio website project, where you can find information about me, how to contact me, and explore the projects I've worked on. My portfolio website was developed using React.js and TypeScript, along with various libraries such as Email.js, React Burger Menu, React Hook Form, and React Router DOM.
