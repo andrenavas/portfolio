@@ -34,9 +34,7 @@ const About: React.FC = () => {
               {/* <p>In this section you will find all the information of my professional profile, I invite you to read a little more about me and my work. </p> */}
               <section className='bio' id='bio'>
                 <h2 className='subtitle-about-view'> // bio</h2>
-                <p>Hi, my name is Andreyna.
-
-                  I'm Front-End Developer and Industrial Engineer dedicated to finding efficient and innovative solutions. Attention to detail and logical thinking allow me to tackle daily challenges in projects, creating code that solve problems efficiently.
+                <p>Hi, I'm Front-End Developer and Industrial Engineer dedicated to finding efficient and innovative solutions. Attention to detail and logical thinking allow me to tackle daily challenges in projects, creating code that solve problems efficiently.
                 </p>
 
                 <p>I enjoy working in collaborative environments where I can combine my technical and communication skills to achieve project goals.
@@ -110,6 +108,13 @@ const About: React.FC = () => {
                   <h3>Data Analysis</h3>
                   <a href='https://cursos.desafiolatam.com/certificates/qn2txieutt' target='_blank'>
                     <img src='https://firebasestorage.googleapis.com/v0/b/portfolio-fa111.appspot.com/o/images%2Fdata-analysis.jpg?alt=media&token=f4eca502-d1b4-4960-b6ab-0886cc83f615' alt='data analysis certificate' />
+                  </a>
+                </div>
+
+                <div className='container-certification'>
+                  <h3>SQL</h3>
+                  <a href='https://www.credential.net/afb61ea2-a7f8-4198-a19c-cf5eaf9cef97#gs.21qvjh' target='_blank'>
+                    <img src='https://firebasestorage.googleapis.com/v0/b/portfolio-fa111.appspot.com/o/images%2FSQL.jpg?alt=media&token=c2975d2d-acb4-488d-80d0-b85093e0949d' alt='sql certificate' />
                   </a>
                 </div>
               </section>

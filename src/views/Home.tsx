@@ -19,7 +19,7 @@ function Home() {
             <div className='box'>
 
               <div className='container-hello'>
-                <span className='span-hello'>Hello World. I am</span>
+                <span className='span-hello'>Hello World. I'm</span>
                 <h1 className='title-home'>Andre Navas</h1>
                 <span className='span-frontend'>  &gt; Frontend Developer</span>
               </div>
