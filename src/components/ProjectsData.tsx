@@ -7,7 +7,7 @@ const projectsData = [
     date: 'October 2023',
     image: 'https://firebasestorage.googleapis.com/v0/b/portfolio-fa111.appspot.com/o/images%2FJSHome.jpg?alt=media&token=7dec0e64-a361-4fb7-aab4-45f39edb00f5',
     description: 'Landing page for a business dedicated to the sale of motorcycle parts, integrating Gmail for forms and we enable connection to WhatsApp.',
-    liveLink: 'https://jsmotos-e4995.web.app/',
+    liveLink: 'https://www.jsmotos.com/',
     githubLink: 'https://github.com/andrenavas/DEV005-burger-queen-api-client', //Editar cuando haga fork
   },
   {
