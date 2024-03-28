@@ -6,7 +6,7 @@ const projectsData = [
     name: 'Loly Fernandez Nails',
     date: 'March 2024',
     image: 'https://firebasestorage.googleapis.com/v0/b/portfolio-fa111.appspot.com/o/images%2FLolyHome.jpg?alt=media&token=c1a64ab5-5f04-4f20-8834-e9f3d23907c1',
-    description: 'Customized WordPress website, enhancing user experience with personalized styling. Applied plugins, and CSS coding for optimal functionality.',
+    description: 'Developed WordPress website to elevate user experience through customized design and intuitive navigation. Employed a variety of themes, plugins, and CSS coding to ensure peak performance and functionality.',
     liveLink: 'https://www.lolyfernandez.es/',
     githubLink: 'https://www.lolyfernandez.es/', 
   },
