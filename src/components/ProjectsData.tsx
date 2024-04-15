@@ -3,6 +3,15 @@
 const projectsData = [
   {
     id: 1,
+    name: 'Home Shop 593',
+    date: 'April 2024',
+    image: 'https://firebasestorage.googleapis.com/v0/b/portfolio-fa111.appspot.com/o/images%2FHS593%20-%20HomePage.jpg?alt=media&token=c6ac213c-374d-40ac-9318-f99789f053e5',
+    description: 'Developed and customized the online store using Shopify. Implemented custom applications such as counters, urgency purchase banners, dropshipping forms, and CSS coding for optimal functionality.',
+    liveLink: 'https://www.homeshop593.com/',
+    githubLink: 'https://www.homeshop593.com/', 
+  },
+  {
+    id: 2,
     name: 'Loly Fernandez Nails',
     date: 'March 2024',
     image: 'https://firebasestorage.googleapis.com/v0/b/portfolio-fa111.appspot.com/o/images%2FLolyHome.jpg?alt=media&token=c1a64ab5-5f04-4f20-8834-e9f3d23907c1',
@@ -11,7 +20,7 @@ const projectsData = [
     githubLink: 'https://www.lolyfernandez.es/', 
   },
   {
-    id: 2,
+    id: 3,
     name: 'Blackjack Chauffeurs',
     date: 'February 2024',
     image: 'https://firebasestorage.googleapis.com/v0/b/portfolio-fa111.appspot.com/o/images%2FHome%20BJC.jpg?alt=media&token=d013bcc4-b133-4cad-bcaf-5280f7ab0b69',
@@ -20,7 +29,7 @@ const projectsData = [
     githubLink: 'https://www.blackjackchauffeurs.com', 
   },
   {
-    id: 3,
+    id: 4,
     name: 'Brown Auto Care Fl',
     date: 'January 2024',
     image: 'https://firebasestorage.googleapis.com/v0/b/portfolio-fa111.appspot.com/o/images%2FJSHome.jpg?alt=media&token=7dec0e64-a361-4fb7-aab4-45f39edb00f5',
@@ -29,7 +38,7 @@ const projectsData = [
     githubLink: 'https://www.brownautocarefl.com/', 
   },
   {
-    id: 4,
+    id: 5,
     name: 'JS Motos',
     date: 'October 2023',
     image: 'https://firebasestorage.googleapis.com/v0/b/portfolio-fa111.appspot.com/o/images%2FJSHome.jpg?alt=media&token=7dec0e64-a361-4fb7-aab4-45f39edb00f5',
@@ -38,7 +47,7 @@ const projectsData = [
     githubLink: 'https://www.jsmotos.com/', //Editar cuando haga fork
   },
   {
-    id: 5,
+    id: 6,
     name: 'Burger Queen API Client',
     date: 'July 2023',
     image: 'https://firebasestorage.googleapis.com/v0/b/portfolio-fa111.appspot.com/o/images%2FloginBQ.png?alt=media&token=95fb1f95-77c1-4d8f-aa8d-26ac3d4fd79b',
@@ -47,7 +56,7 @@ const projectsData = [
     githubLink: 'https://github.com/andrenavas/DEV005-burger-queen-api-client',
   },
   {
-    id: 6,
+    id: 7,
     name: 'CLI Library | Md-Links',
     date: 'June 2023',
     image: 'https://firebasestorage.googleapis.com/v0/b/portfolio-fa111.appspot.com/o/images%2Fimg-validate-true.jpg?alt=media&token=4f59a4ea-1617-4c62-a121-0775a201db1b',
@@ -56,7 +65,7 @@ const projectsData = [
     githubLink: 'https://github.com/andrenavas/DEV005-md-links',
   },
   {
-    id: 7,
+    id: 8,
     name: 'Social Network | Mascoteando',
     date: 'May 2023',
     image: 'https://firebasestorage.googleapis.com/v0/b/portfolio-fa111.appspot.com/o/images%2Fmascoteando.jpg?alt=media&token=8551300f-6f26-4f43-b82c-ef4b9aebcc10',
@@ -65,7 +74,7 @@ const projectsData = [
     githubLink: 'https://github.com/andrenavas/DEV005-social-network',
   },
   {
-    id: 8,
+    id: 9,
     name: 'Data Lovers | Rick and Morty Website',
     date: 'April 2023',
     image: 'https://firebasestorage.googleapis.com/v0/b/portfolio-fa111.appspot.com/o/images%2Fdatalovers.jpg?alt=media&token=f00bd623-f934-4765-9283-08ed9573b234',
