@@ -123,7 +123,7 @@ const About: React.FC = () => {
                 <h2 className='subtitle-about-view'> // resume</h2>
                 <div className='container-resume'>
                   <h3>Download my resume, here 👇</h3>
-                  <a href="https://firebasestorage.googleapis.com/v0/b/portfolio-fa111.appspot.com/o/resume%2FCV%20Andreyna%20Navas%20-%20Frontend%20Developer%202025.pdf?alt=media&token=824d5d6c-01ac-482d-bfbc-c76c0f79ed4b" target='_blank' rel='noopener noreferrer'>
+                  <a href="https://firebasestorage.googleapis.com/v0/b/portfolio-fa111.appspot.com/o/resume%2FCV%20Andreyna%20Navas%20-%20Frontend%20Developer%202025.pdf?alt=media&token=82d27f6a-143b-4e7d-844e-6fa3f365338c" target='_blank' rel='noopener noreferrer'>
                     <Button descriptionButton='Resume Andreyna Navas' />
                   </a>
                 </div>
