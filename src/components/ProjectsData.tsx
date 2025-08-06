@@ -18,8 +18,8 @@ const projectsData = [
       "https://firebasestorage.googleapis.com/v0/b/portfolio-fa111.appspot.com/o/images%2Fluxury-driver-services.png?alt=media&token=353d54c1-620a-41ad-bac4-b629c8aef914",
     description:
       "Professional booking website built in WordPress for private transportation services. Includes service plan subscription feature.",
-    liveLink: "https://luxurydriverservices.com",
-    githubLink: "https://luxurydriverservices.com",
+    liveLink: "https://luxurydriverservice.com",
+    githubLink: "https://luxurydriverservice.com",
   },
   {
     id: 3,
@@ -29,8 +29,8 @@ const projectsData = [
       "https://firebasestorage.googleapis.com/v0/b/portfolio-fa111.appspot.com/o/images%2Fjr-plumbingva.png?alt=media&token=aa9f445d-37bf-40f9-ba90-a64a0db91b5d",
     description:
       "Informational WordPress website for a plumbing services business, featuring responsive design and service listings.",
-    liveLink: "https://jrplubingva.com",
-    githubLink: "https://jrplubingva.com",
+    liveLink: "https://jrplumbingva.com",
+    githubLink: "https://jrplumbingva.com",
   },
   {
     id: 4,
